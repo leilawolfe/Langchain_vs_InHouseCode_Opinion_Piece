@@ -1,15 +1,15 @@
 # Do We Always Need AI Frameworks? The Case For In House Production Code (UNFINISHED)
+> May 30, 2026 | Leila Wolfe | 4-minute read (600 - 1000 words)
 
-> Tone: Approachable, Warm TODO: REMOVE
-
-Harness Engineering has been the focus of AI in 2026. How can we build a reliable and production grade framework around our LLM applications. Many have gravitated towards frameworks like LangChain, LangGraph, CrewAi and LlamaIndex. However, I argue that in many cases, it is more beneficial to use in house code.
+Harness Engineering has been the focus of AI in 2026. How can we build a reliable and production grade framework around our LLM applications. Many have gravitated towards frameworks like LangChain, LangGraph, CrewAi and LlamaIndex. However, I argue that in many cases, it is more beneficial to use in house code. Tell a story here
 
 ## Pro Frameworks:
 * Standardize workflows and tech stack across teams and developers
 * Quick to start up/Plug and play - Great for prototyping
 * Provide many useful features natively - saving development time
-* Community backing (contributers)
-* Specialized labor (can find people familiar with tool and can onboard devs quickly)
+* Community backing (contributors)
+* Specialized labor (can find people familiar with the tool and can onboard devs quickly)
+* Junior to immediate experience developers could likely pick up
 * Tooling credibility
 
 ## Cons Frameworks:
@@ -17,12 +17,27 @@ Harness Engineering has been the focus of AI in 2026. How can we build a reliabl
 * May need to use multiple frameworks to fit all requirements of your project
 * May not be adaptable to your project
 * Compatibility issues with other libraries and frameworks
-* May end up writing work around coded that can be clunky
-* Need more guardrails to address security issues, silent failures, and observability (LangGraph, LangSmith)
+* May end up coding workarounds that can be clunky
+* Need multiple frameworks to address security issues, silent failures, and observability
+* High maintainability - api breaks to keep up with updates
+* Wait for developers to write features required or to fix bugs
+* Framework abstractions can cause black box issues - like seeing exactly what prompts are sent and how many tokens are used
 
 ## Pro In-House Code
+* Full control over code. Customizability as needed
+* Less costly long-term
+* Ensure production grade
+* Ensure compatibility
+* Ensure security
+* Potential less corporate and legal pushback
+* Deterministic Reliability
 
 ## Con In-House Code
+* More time-consuming - longer development time
+* More planning time required
+* Experienced developer required. Senior, Lead, or Architect is required to design the architecture
+* Will be big lift if a prototype or POC has not been coded first to prove value of the project. 
+* Reinventing the wheel (complicated algorithms)
 
 ## When to use?
 
