@@ -1,5 +1,9 @@
 # Do We Always Need AI Frameworks? The Case For In House Production Code (UNFINISHED)
-> May 30, 2026 | Leila Wolfe | 4-minute read (600 - 1000 words)
+<p align="center">
+  <strong>June 1, 2026</strong> &nbsp;|&nbsp; 
+  <strong>Leila Wolfe</strong> &nbsp;|&nbsp; 
+  <strong>4-minute read</strong>
+</p>
 
 Harness Engineering has been the focus of AI in 2026. How can we build a reliable and production grade framework around our LLM applications. Many have gravitated towards frameworks like LangChain, LangGraph, CrewAi and LlamaIndex. However, I argue that in many cases, it is more beneficial to use in house code. Tell a story here
 
