@@ -7,7 +7,7 @@
 
 Harness Engineering has been the focus of AI in 2026. How can we build a reliable and production grade framework around our LLM applications. Many have gravitated towards frameworks like LangChain, LangGraph, CrewAi and LlamaIndex. However, I argue that in many cases, it is more beneficial to use in house code. Tell a story here
 
- Many senior engineers are actively moving away from heavy abstraction layers (like LangChain or LlamaIndex) in favor of writing lightweight, native, in-house API integrations
+ Many senior engineers are actively moving away from heavy abstraction layers (like LangChain or LlamaIndex) in favor of writing lightweight, native, in-house API integrations. According to Wang et al. 2025., engineers most commonly found issues with tooling (25%), logic (14%), performance (25%), and version (23%). 
 
 ## Pro Frameworks:
 * Standardize workflows and tech stack across teams and developers
